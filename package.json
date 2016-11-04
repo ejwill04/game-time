@@ -6,18 +6,18 @@
   "scripts": {
     "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "./node_modules/webpack/bin/webpack.js",
-    "test": "./node_modules/mocha/bin/mocha --compilers js:babel/register"
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/turingschool-examples/game-time-starter-kit.git"
+    "url": "https://github.com/ejwill04/game-time.git"
   },
   "author": "Steve Kinney",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/turingschool-examples/game-time-starter-kit/issues"
+    "url": "https://github.com/ejwill04/game-time.git/issues"
   },
-  "homepage": "https://github.com/turingschool-examples/game-time-starter-kit",
+  "homepage": "https://github.com/ejwill04/game-time.git",
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.11.4",
